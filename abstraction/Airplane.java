@@ -32,7 +32,7 @@ public class Airplane extends Vehicle implements Flyable {
     @Override
     public int flight(String from, String to, int kilometers) {
         int flightDuration = kilometers / getSpeed();
-        System.out.println("Flight duration = ");
+        System.out.print("Flight duration = ");
         return flightDuration;
     }
 }
